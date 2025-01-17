@@ -1,11 +1,11 @@
-import BankFeatures from '../common/components/BankFeatures';
 import Hero from '../common/components/Hero';
+import BankCom from '../features/bankCom/BankCom';
 
 function Home() {
   return (
     <main>
       <Hero />
-      <BankFeatures />
+      <BankCom />
     </main>
   );
 }
